@@ -1,33 +1,52 @@
 <!DOCTYPE html>
-<!-- saved from url=(0078)file:///Users/mitalibhandary-alexander/Desktop/mitali_eportfolio/blackbox.html -->
-<style> h1 {
-  
+<!--
+    Anything you put in between the double-dash arrow symbols shown around
+    this block of text is designated a 'comment' intended for human coders
+    and ignored by the computer. The top "<!DOCTYPE html>" line of code 
+    declares that this text file is to be interpreted as HTML code.
+-->
+
+<html lang=en>
+<!--
+    This opening tag marks the start of the html code.  Everything below
+    until the </html> closing tag is part of this element. "lang" is an
+    attribute defining the language of the website. The value "en" 
+    indicates this site is written in English. We indent the content
+    inside an element to make it easier for people to read and understand.
+-->
+
+    <head>
+    <!--Code *about* the website, NOT displayed in the browser window.-->
+
+        <meta charset="UTF-8"> <!--Sets site to use standard characters.-->
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Sizes your site to the visitor's screen size -->
+
+        <meta name="author" content="Mitali">
+        <!--
+            Some tags like "meta" are self-closing. They have "attributes" 
+            but no inner content and they don't need or use a closing tag.
+        -->
+
+        <title>Mitali's Screen Print</title>
+        <!--The 'title' is what's displayed in the browser tab.-->
+
+       <style>
+h1 {
   color: DarkSlateGrey;
   font-family: verdana;
   font-size: 300%;
     margin: 15px auto;
     text-align: center;
-    margin-bottom: 20px;}
-    
- table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-    font-family: Arial, sans-serif;
-  }
-  th, td {
-    border: 1px solid #cccccc;
-    padding: 10px;
-    text-align: left;
-  }
-  th {
-    background-color: #f2f2f2;
-    font-weight: bold;
-  }
+    margin-bottom: 20px;
 
 
+
+
+}
 p  {
-   color: MediumSeaGreen;
+  color: MediumSeaGreen;
   font-family: courier;
   font-size: 100%;
     max-width: 600px;
@@ -36,154 +55,113 @@ p  {
     text-align: center;
     margin: 15px auto;
     margin-bottom: 20px;
-}
-          h2, h3 { 
-    color: DarkSeagreen;
-    font-family: verdana;
-    font-size: 180%;
-    width: 100%;
-    max-width: 600px;
-    border: 2px solid #2e7d32;
-    text-align: center;
-    margin: 15px auto;
-    margin-bottom: 20px;
-}
 
-img { 
-    display: block;
+}
+           h2 {
+  color: DarkSeagreen;
+  font-family: verdana;
+  font-size: 180%;
+  width: 100%;
+  max-width: 600px;
+  border: 2px solid #2e7d32;
+  text-align: center; 
+  margin: 15px auto;
+               margin-bottom: 20px;
+
+
+}
+           ul {
+               color: MediumSeaGreen;
+               font-family: courier;
+               font-size: 150%;
+               margin: auto;
+               width: max-content;      
+  margin: 0 auto;          
+  text-align: left;
+           } 
+           border: 2px solid #2e7d32
+            max-width: 600px;
+  width: 100%;
+
+
+           ul {text-align: center;}
+
+           body {
+  background-color: Gainsboro;
+}
+        img {    display: block;
     margin-left: auto;
     margin-right: auto;
-}
+            }
 
-/* This must be outside the h2, h3 block */
-ul {
-    color: MediumSeaGreen;
-    font-family: courier;
-    font-size: 150%;
-    margin: auto;
-    width: max-content;
-}
-
-
+           iframe {  margin-left: auto;
+    margin-right: auto;}
 </style>
 
+        <!--
+            HTML (HyperText Markup Language) code is for the website 
+            content. CSS (Cascading Style Sheets) code is for the website 
+            style. The line above tells the browser the file location and 
+            file name to find this code that you'll write/edit there.
+        -->
+
+        <link rel="icon" type="image/png" href="/favicon.png">
+        <!--
+            If you made/found a favicon, export/name it exactly favicon.png
+            and upload to the top level of your repo, then this line of
+            code will use it as your site icon in the browser tab.
+        -->
+
+    </head>
+
+    <body> <!--Everything to be displayed in the browser window.-->
+
+        <!--example headings, paragraphs, lists-->
+        <h1>Screen Printing Project</h1>
 
 
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  
-  <title>Black Box</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  
-</head>
+        <h2>Purpose:</h2>
 
-<body>
-
-<nav>
-  <ul>
- 
-
- </nav> 
-
-<h1>Black box project </h1>
-
-
-<p> In my 9th grade New Media and Tech class we studied something called the “Mystery Black Box”. This box has a mystery set up inside it that we can't see. Water goes in through a funnel at the top and exits from a tube to a bin from the bottom. Where the water goes during its time inside the box we don't know. We wanted to figure out what was in the box based on testing the actual box to our own ideas to find matching data.</p>
-
-  <h3> Claim</h3>
-<p> There is not enough evidence to show if our design of a tipping mechanism is or is not inside the black box. </p>
-  <h3> Evidence</h3>
-<p> In our observations of the original black box, we noticed that the results were not consistent. During testing we noticed that at times all the water poured in would exit. For example in trial 8 when 1000ml was poured in and 1000ml came out. However at other times all the water poured in would not exit. For example in trial 5, 1000ml was poured in and only 370ml came out. This is showing how there must be a contraption inside that takes a certain amount of water to tip. The key structure in our model was a tipping bucket feature, that required a certain amount of water to tip. We built our model by cutting containers to create  an area to be poured. We then used chopsticks as skewers to hold up our container, allowing for tipping. We tested our model by pouring the same amount of water into the original and our model, and noticed the data. However our data was inconclusive, as we only tested once before the model fell apart. The one test we did had 1000ml go in and 1000ml.</p>
-
-  <h3> Reasoning </h3>
-<p> Models are real builds of an idea or sketch, primarily used for collecting data. Models can allow for people to see what works and doesn't work, allowing for revisions and improvements on a  model. Models should be slightly simplified to allow for changes and improvements to be made.
-Models can also not be physical. It can be digital, a drawing, or many other things. The idea of models being simplified can be good and bad. With a simpler model the data could be slightly different than your real project. However it allows for more leniency and improvements on data. My claim states that there is not enough evidence to conclude whether a tipping mechanism is or is not inside the box. The trials run don't show conclusive data, meaning that we can't make a guess off of it. An alternative claim would be that there is definitely a tipping mechanism in the box. For this to be true, tests would have to have similar data to the original box. This was not observed as an outcome; this means our actual claim still stands.</p>
-  <h2> Digital photography, design, and animation work:</h2>
-<p>During this process we used photography, 2D animation, and 3D animation. During the photography step, we used the rule of thirds as well as framing and angles to take enticing shots of our process. We took pictures of all the steps of the projects, planning, modeling, testing, analyzing, and other steps. 
-We also used 2D animation to create our original sketches online. We used <a href="https://www.adobe.com/products/photoshop.html/">Adobe Photoshop</a> to create our animation. This allowed us to add in water, and create a detailed version of our paper sketches. We did this by using the drawing pads to create our components. We then added in water and animation to create a cohesive model, that we could then base our prototype off of.
-One other skill we used was 3D animation in MAYA. We used this to create  a 3D representation of our built project. We used rigging and animating to make it realistic and to add a hand. We used things like booleans, multicut, and scale to create our model and make it look realistic and clean. We used different cameras and lighting to make our models look “pretty” once it's rendered fully.  I adjusted the color and texture of the funnels, tubes, and the box. I made the tubes more transparent to create the tube effect. The funnels got their color changed to create them to stand out as a key feature.</p>
- 
- <img 
-            src="images/IMG_7487.JPG"
+        <p>This project is our screen printing project. We were asked to think of any issue we want to represent, and think how we want to represent it. For my project I chose the U.S Immigration and Customs Enforcement and Healthcare crisis in our country. Hard working fathers, mothers, sisters, brothers, daughters, and sons are being taken from our country every day without a fair trial. This is being funded by a 75,000,000 dollar grant from our president's “Big Beautiful Bill”. This is money that could be going to the healthcare systems in America. In 2025, 91 million Americans reported not having access to healthcare. Our healthcare systems are underfunded and our terrorist organizations are overfunded, so I made a project to convey that.</p>
+         <img 
+            src="images/p11.webp"
             width="560" 
-            >
+            alt="Big Beautiful Bill">
 
-<img             src="images/IMG_7506.JPG"
-            width="560" 
-           >
 
- <h2> 21st Century Skills:</h2>
-<p> During this project I used problem solving and critical thinking skills. These were used to create our design, find potential errors, and work to fix it. We had to use critical thinking to think about what is or is not inside the box, using logic to eliminate options. I grew these skills when our original design would not create the same results. I had to use problem solving to think about why this happened and how to fix this. We were able to eliminate designs before testing due to our insightful judgment and reasoning.</p>
+        <h2>Procedure:</h2>
 
-<img             src="images/Screenshot 1.png"
-            width="560" >
-           
-    <h2>Materials:</h2>
+        <p>In this project we began with sketching out our designs. After we had them sketched, we used a photo shop to create our designs with the right amount of detail and with the colors we wanted to use isolated. By separating layers with colors, we had the vinyl we wanted to cut. We then had to make our screens. We mapped out our screens on photoshop by dimensioning to ensure it is proportioned correctly.  We then measured our word, and cut 45 degree angles at the correct length to create our boards. We glued and stapled them together to ensure maximum support and we meshed our screens to create a base for our vinyl. We then print out our vinyl and iron them on. We pick out our vinyl to open up our design, and then we have our final boards. We then got our fabric and mixed our paint from the colors we had. Next, we printed our base color or background, allowed it to try, and printed our next color. In the end all of our prints were sewed together to create our shared canvas, which is hung up in our classroom.</p>
+
+
+        <h2>21'st century skills and criteria</h2>
+
+        <p>During this project I grew the most in my communication and collaboration skills. This was a group project that required us to help each other constantly. Some of these tasks could not be done without a teammate to aid, and that grew my skills. I had to ask for help even when I didn't necessarily want to, and I had to ask people who weren't necessarily my first choice. This forced my to grow my communication skills and opened up my mind to different people.<p>
+
+
+            <h2>Materials:</h2>
         <ul>
-            <li>Cardboard box</li>
-            <li>Funnels</li>
-            <li>Tape</li>
-            <li>Hot Glue</li>
-            <li>Measuring Tools</li>
-           
+            <li>Cameras</li>
+            <li>Wood</li>
+            <li>Mesh</li>
+            <li>Irons</li>
+            <li>Vinyl and Vinyl Printer</li>
+            <li>Staples + Glue</li>
+            <li>Screenprinting Equipment</li>
+            <li>Photoshop</li>
         </ul>
 
-<h2>Black Box Data</h2>
+        <!--example images (uploaded to repo's "images" directory)-->
 
-<table>
+        <!--example video (or other content from another webpage)-->
+        <iframe src="https://drive.google.com/file/d/14ydOVbz9_coZa5vpH2RVsFZmYyibtO8y/preview" width="640" height="480"></iframe>
+        <!-- replace FILE_ID in the example link above with
+             exact text from your actual video's share link -->
 
-  <tbody><tr>
-    <th>Our data</th>
-    <th>The original data</th>
-    <th>Trial</th>
-  </tr>
-  <tr>
-    <td>1000 ml in - 1000 ml out</td>
-    <td>1000 ml in - 370 ml out</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>N/A</td>
-    <td>1000 ml in - 1710 ml out</td>
-    <td>6</td>
-  </tr>
-  <tr>
-    <td>N/A</td>
-    <td>1000 ml in - 960 ml out </td>
-    <td>7</td>
-  </tr>
-  <tr>
-    <td>N/A</td>
-    <td>1000 ml in - 1000 ml out</td>
-    <td>8</td>
-  </tr>
-  <tr>
-    <td>N/A</td>
-    <td>1000 ml in - 980 ml out</td>
-    <td>9</td>
-  </tr>
-  <tr>
-    <td>N/A</td>
-    <td>1000 ml out - 990 ml out</td>
-    <td>11</td>
-  </tr>
-</tbody></table>
+        <!--example links-->
+            <a href="/about.html">Link to page/file on your site</a>
+            <a href="https://github.com" target="_blank">Link to
+                external page on web (_blank opens in new tab)</a>
 
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-</body></html>
+    </body>
+</html>
