@@ -1,0 +1,50 @@
+<html>
+<head>
+<style>
+h1 {text-align: center;}
+h2 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+button {container-align: center}
+</style>
+</head>
+<body>
+
+<body style="background-color:Navy;">
+
+  <h1>Mitali Bhandary-Alexander's New Media and Tech Home Page</h1>
+<p>Hello! Welcome to my home page for my final New Media and Tech portfolio. Here you will findthe links to all 3 of my webpages, as well as some insight into how I made this.</p>
+
+  <h2>My Webpages:</h2>
+</div>
+ 
+   <nav>
+ <ul>
+   <div class="button-container">
+  <button <li><a href="screenprint.html">Our Shared Canvas</a></li> </button>
+    <button <li><a href="blackbox.html">Black Box Investigations</a></li> </button>
+ <button <li><a href="genetics.html">DNA Analysis Project</a></li> </button>
+   </div>
+ </ul>   
+</nav>
+  
+<html lang=en>
+
+    <head>
+    
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+
+        <meta name="author" content="Your Name">
+        
+        <title>Mitali's Webpage</title>
+     
+
+        
+      
+
+          
+    </body>
+</html>
